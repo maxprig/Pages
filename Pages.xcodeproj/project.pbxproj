@@ -15,6 +15,9 @@
 		570F00F31A6EC4CB003CAB2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570F00F21A6EC4CB003CAB2C /* Images.xcassets */; };
 		570F00F61A6EC4CB003CAB2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 570F00F41A6EC4CB003CAB2C /* LaunchScreen.xib */; };
 		570F01021A6EC4CB003CAB2C /* PagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F01011A6EC4CB003CAB2C /* PagesTests.m */; };
+		570F010D1A6EC5E4003CAB2C /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F010C1A6EC5E4003CAB2C /* AddViewController.m */; };
+		570F01101A6EDAE9003CAB2C /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F010F1A6EDAE9003CAB2C /* Profile.m */; };
+		570F01141A6EDF05003CAB2C /* SuperTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F01131A6EDF05003CAB2C /* SuperTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		570F00FB1A6EC4CB003CAB2C /* PagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		570F01001A6EC4CB003CAB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		570F01011A6EC4CB003CAB2C /* PagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagesTests.m; sourceTree = "<group>"; };
+		570F010B1A6EC5E4003CAB2C /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		570F010C1A6EC5E4003CAB2C /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		570F010E1A6EDAE9003CAB2C /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		570F010F1A6EDAE9003CAB2C /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		570F01121A6EDF05003CAB2C /* SuperTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperTableViewCell.h; sourceTree = "<group>"; };
+		570F01131A6EDF05003CAB2C /* SuperTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +97,14 @@
 				570F00EC1A6EC4CB003CAB2C /* ViewController.h */,
 				570F00ED1A6EC4CB003CAB2C /* ViewController.m */,
 				570F00EF1A6EC4CB003CAB2C /* Main.storyboard */,
+				570F01121A6EDF05003CAB2C /* SuperTableViewCell.h */,
+				570F01131A6EDF05003CAB2C /* SuperTableViewCell.m */,
+				570F010B1A6EC5E4003CAB2C /* AddViewController.h */,
+				570F010C1A6EC5E4003CAB2C /* AddViewController.m */,
 				570F00F21A6EC4CB003CAB2C /* Images.xcassets */,
 				570F00F41A6EC4CB003CAB2C /* LaunchScreen.xib */,
 				570F00E91A6EC4CB003CAB2C /* Pages.xcdatamodeld */,
+				570F01111A6EDAED003CAB2C /* CoreData */,
 				570F00E21A6EC4CB003CAB2C /* Supporting Files */,
 			);
 			path = Pages;
@@ -120,6 +134,15 @@
 				570F01001A6EC4CB003CAB2C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		570F01111A6EDAED003CAB2C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				570F010E1A6EDAE9003CAB2C /* Profile.h */,
+				570F010F1A6EDAE9003CAB2C /* Profile.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,8 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570F010D1A6EC5E4003CAB2C /* AddViewController.m in Sources */,
 				570F00EB1A6EC4CB003CAB2C /* Pages.xcdatamodeld in Sources */,
+				570F01141A6EDF05003CAB2C /* SuperTableViewCell.m in Sources */,
 				570F00E81A6EC4CB003CAB2C /* AppDelegate.m in Sources */,
+				570F01101A6EDAE9003CAB2C /* Profile.m in Sources */,
 				570F00EE1A6EC4CB003CAB2C /* ViewController.m in Sources */,
 				570F00E51A6EC4CB003CAB2C /* main.m in Sources */,
 			);
