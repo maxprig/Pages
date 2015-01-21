@@ -11,6 +11,7 @@
 @interface ViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray *myProfiles;
+@property (strong, nonatomic) IBOutlet UITableView *myTableView;
 
 @end
 

@@ -50,6 +50,7 @@
     return context;
 }
 
+//Add objects
 -(void)addToCoreData{
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://api.vk.com/method/users.get?user_id=%@&fields=photo_max", self.idField.text]];
     NSData *data = [NSData dataWithContentsOfURL:url];
